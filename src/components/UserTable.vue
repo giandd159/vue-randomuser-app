@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <table>
+  <div class="user-table">
+    <table class="user-list">
       <thead>
         <tr>
           <th>Foto</th>
@@ -43,6 +43,43 @@ export default {
 };
 </script>
 
+
 <style>
-/* Añadir estilos según necesidad */
+.user-table {
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.user-list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-list th, .user-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-list th {
+  background-color: #f2f2f2;
+}
+
+.user-list img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .user-list th, .user-list td {
+    padding: 6px;
+  }
+
+  .user-list img {
+    width: 40px;
+    height: 40px;
+  }
+}
 </style>
