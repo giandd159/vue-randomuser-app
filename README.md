@@ -29,7 +29,7 @@ Esta es una aplicación desarrollada con Vue.js que utiliza la API randomuser.me
 
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/vue-randomuser-app.git
+    git clone https://github.com/giandd159/vue-randomuser-app.git
     cd vue-randomuser-app
     ```
 
